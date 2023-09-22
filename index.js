@@ -11,7 +11,9 @@ window.addEventListener("load", () => {
   const task_edit_el = document.createElement("button");
   const task_save_el = document.createElement("div");
   const task_delete_el = document.createElement("button");
-  const task_copy_el = document.createElement("button");
+  const task_copy_el = document.createElement("button");\
+  const task_duplicate_el = document.createElement("button");
+  const task_share_el = document.createElement("button");
 
   // submit
   form.addEventListener("submit", (e) => {
