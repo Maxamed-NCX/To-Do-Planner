@@ -7,13 +7,15 @@ window.addEventListener("load", () => {
   const task_el = document.createElement("div");
   const task_content_el = document.createElement("div");
   const task_actions_el = document.createElement("div");
-  const task_completed_el = document.createElement("div");
   const task_edit_el = document.createElement("button");
   const task_save_el = document.createElement("div");
   const task_delete_el = document.createElement("button");
-  const task_copy_el = document.createElement("button");\
+  
+  const task_copy_el = document.createElement("button");
   const task_duplicate_el = document.createElement("button");
   const task_share_el = document.createElement("button");
+  const task_completed_el = document.createElement("div");
+  const task_addToCal_el = document.createElement("div");
 
   // submit
   form.addEventListener("submit", (e) => {
