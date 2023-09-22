@@ -3,6 +3,13 @@ window.addEventListener("load", () => {
   const input = document.querySelector("#new-task-input");
   const list_el = document.querySelector("#todos");
 
+  const task = input.value;
+  const task_el = document.createElement("div");
+  const task_content_el = document.createElement("div");
+  const task_actions_el = document.createElement("div");
+  const task_edit_el = document.createElement("button");
+  const task_delete_el = document.createElement("button");
+
   // submit
   form.addEventListener("submit", (e) => {
     e.preventDefault();
