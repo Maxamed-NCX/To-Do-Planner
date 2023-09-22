@@ -30,7 +30,7 @@ To Do planner to save task and delete
 #### Site
 
 ## **_Link URL to deployed website on GitHub_**
-[Github-Project](https://Maxamed-NCX.github.io/To-Do-Planner/)
+[Deployed-Project](https://Maxamed-NCX.github.io/To-Do-Planner/)
 
 
 ## **_Link URL to GitHub Repository_**
